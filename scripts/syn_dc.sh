@@ -2,7 +2,7 @@
 #
 #  VlogHammer -- A Verilog Synthesis Regression Test
 #
-#  Copyright (C) 2013  Clifford Wolf <clifford@clifford.at>
+#  Copyright (C) 2013  Claire Xenia Wolf <claire@yosyshq.com>
 #  Copyright (C) 2013  Johann Glaser <Johann.Glaser@gmx.at>
 #
 #  Permission to use, copy, modify, and/or distribute this software for any

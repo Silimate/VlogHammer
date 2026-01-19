@@ -1,7 +1,7 @@
 #
 #  Vlog-Hammer -- A Verilog Synthesis Regression Test
 #
-#  Copyright (C) 2013  Clifford Wolf <clifford@clifford.at>
+#  Copyright (C) 2013  Claire Xenia Wolf <claire@yosyshq.com>
 #  
 #  Permission to use, copy, modify, and/or distribute this software for any
 #  purpose with or without fee is hereby granted, provided that the above
@@ -24,7 +24,7 @@ SIM_LIST     := verilator yosim
 RTL_LIST     := $(shell ls rtl 2> /dev/null | cut -f1 -d.)
 REPORT_LIST  := $(shell ls $(addprefix check_,$(SYN_LIST)) 2> /dev/null | grep '\.err$$' | cut -f1 -d. | sort -u)
 ISE_SETTINGS := /opt/Xilinx/14.7/ISE_DS/settings64.sh
-IVERILOG_DIR := # /home/clifford/Work/iverilog/instdir/bin
+IVERILOG_DIR := # /home/claire/Work/iverilog/instdir/bin
 MODELSIM_DIR := /opt/intelFPGA_lite/17.0/modelsim_ase/linux
 QUARTUS_DIR  := /opt/intelFPGA_lite/17.0/quartus/bin
 VIVADO_DIR   := /opt/Xilinx/Vivado/2018.3/bin
