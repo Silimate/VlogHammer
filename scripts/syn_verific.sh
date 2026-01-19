@@ -2,7 +2,7 @@
 #
 #  VlogHammer -- A Verilog Synthesis Regression Test
 #
-#  Copyright (C) 2013  Clifford Wolf <clifford@clifford.at>
+#  Copyright (C) 2013  Claire Xenia Wolf <claire@yosyshq.com>
 #  
 #  Permission to use, copy, modify, and/or distribute this software for any
 #  purpose with or without fee is hereby granted, provided that the above
@@ -20,7 +20,7 @@
 # Synthesis with verific is performed via the 'verifitest' example program.
 # The sourcecode for this program can be downloaded from:
 #
-#     http://svn.clifford.at/handicraft/2014/verifitest
+#     http://svn.clairexen.net/handicraft/2014/verifitest
 #
 # Visit http://verific.com/ for more information on the verific library.
 
